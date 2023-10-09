@@ -2,19 +2,18 @@ import Image from 'next/image'
 import Heroone from './components/widgets/Heroone';
  
 import InfoAlert from './components/widgets/InfoAlert';
-import FourElements from './components/widgets/FourElements';
+
 export default function Home() {
   return (
 
      <><Heroone />
-     
-     <InfoAlert />
 
-    <FourElements />
-     
-     {/* Comment Line */}
-     {/* Comment Line */}
-     {/* Comment Line */}
+  {/* INFO ALERT */}
+     <InfoAlert />
+  {/* INFO ALERT */}   
+
+
+  
     
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
