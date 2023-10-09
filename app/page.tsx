@@ -1,18 +1,24 @@
 import Image from 'next/image'
 import Heroone from './components/widgets/Heroone';
- 
+
 import InfoAlert from './components/widgets/InfoAlert';
 
-export default function Home() {
+export default function Index() {
   return (
 
-     <><Heroone />
+   
+     <>
+     
+     {/* Carousel - Hero */}
+    
+     
+     <Heroone />
 
   {/* INFO ALERT */}
      <InfoAlert />
   {/* INFO ALERT */}   
 
-
+  
   
     
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
