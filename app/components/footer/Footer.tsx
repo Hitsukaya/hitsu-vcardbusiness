@@ -1,9 +1,19 @@
 'use client'
 import Link from "next/link"
 import React from "react"
+import Partners from "../widgets/Partners";
+
 
 const Footer = () => {
     return ( 
+
+
+        <>
+    {/* --- */}
+        <Partners />
+    {/* --- */}
+
+
 <footer className="bg-white border">
     <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
 
@@ -17,7 +27,7 @@ const Footer = () => {
     </span> 
     <p className="flex flex-wrap justify-center items-center">Powered by&nbsp;<Link href="#" className="hover:text-blue-700">Hitsukaya</Link></p>
     </div>
-</footer>
+</footer></>
      );
 }
  

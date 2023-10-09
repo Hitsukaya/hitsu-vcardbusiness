@@ -3,13 +3,14 @@ import Link from "next/link";
 import Image from 'next/image'
 import React from "react"
 import Heroone from "../components/widgets/Heroone";
+import PwaInfo from "../components/widgets/PwaInfo";
 
 const Home = () => {
     return ( 
     <>
 
     <Heroone />
-    
+    <PwaInfo />
     {/* --- */}
 
     <div className="mb-16">
