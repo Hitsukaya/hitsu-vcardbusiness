@@ -14,7 +14,7 @@ const Home = () => {
     {/* --- */}
 
     <div className="mb-16">
-      <div className="bg-gray-100">
+      <div className="bg-gray-200">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <div>
@@ -58,7 +58,7 @@ const Home = () => {
           <div className="flex items-center sm:justify-center">
             <button
               type="submit"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-gray-500 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-gray-800 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
               Get started
             </button>
@@ -73,8 +73,8 @@ const Home = () => {
         </div>
       </div>
       <div className="relative px-4 sm:px-0">
-        <div className="absolute inset-0 bg-gray-100 h-1/2" />
-        <div className="relative grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
+        <div className="absolute inset-0 bg-gray-200 h-1/2" />
+        <div className="relative grid mx-auto overflow-hidden bg-gray-100 divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
           <div className="inline-block p-8 text-center">
             <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
               <svg
@@ -128,7 +128,7 @@ const Home = () => {
     {/* --- */}
 
 <section
-  className="overflow-hidden bg-gray-50 dark:bg-gray-900 sm:grid sm:grid-cols-2 sm:items-center">
+  className="overflow-hidden bg-gray-200 dark:bg-gray-900 sm:grid sm:grid-cols-2 sm:items-center">
   <div className="p-8 md:p-12 lg:px-16 lg:py-24">
     <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
       <h2 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">
@@ -161,10 +161,10 @@ const Home = () => {
         <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
           <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-            src="./assets/images/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
+            src="./assets/images/logohitsu.svg"
+            alt="Hitsukaya Logo"
+            width={400}
+            height={400}
             priority />
         </div>
   
