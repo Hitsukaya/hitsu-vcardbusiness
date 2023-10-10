@@ -1,5 +1,5 @@
-'use client'
-import Link from "next/link";
+// 'use client'
+//import Link from "next/link";
 import Image from 'next/image'
 import React from "react"
 import Heroone from "../components/widgets/Heroone";
