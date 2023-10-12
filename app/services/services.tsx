@@ -1,7 +1,10 @@
 const Services = () => {
     return ( 
-
-        <h1></h1>
+      <>
+      <h1>Services Page</h1>
+      
+      </>
+        
 
 
      );
